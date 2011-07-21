@@ -7,7 +7,7 @@
 
 
 //Main function begins
-int main(int argc, char *argv[]) 
+int main() //removed argc, argv.
 {
   
   printf("Hello World!\n\n"); /* Prints "Hello World!" to the console with two carriage returns... 
@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
   
   
   //Used to wait for user input before the console exits in WINDOWS console applications e.g. "press any key..."
-  system("PAUSE");	 //NOT PORTABLE
+  //  system("PAUSE");	 //NOT PORTABLE
   return 0; 
 }
+//Edited to compile with [-Wall -Wextra -pedantic -std=c99]
