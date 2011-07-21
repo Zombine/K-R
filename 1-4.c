@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 
-int main(int argc, char *argv[])
+int main()
 {
   
   float fahrenheit, celsius, lower, upper, step; //Variable declarations

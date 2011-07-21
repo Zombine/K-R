@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[])
+int main()
 {
 printf("Press [ENTER] to continue.");
 printf("c = getchar() != EOF returns a: %d\n", getchar() != EOF);

@@ -7,7 +7,7 @@
 
 
 //Main function begins
-int main(int argc, char *argv[]) 
+int main() 
 {
   
   printf("Hello \f World!\n\n"); //Took me two tries to find a new sequence, and it made me snicker when I saw it.
@@ -16,6 +16,6 @@ int main(int argc, char *argv[])
   
   
   //Used to wait for user input before the console exits in WINDOWS console applications e.g. "press any key..."
-  system("PAUSE");	 //NOT PORTABLE
+  // system("PAUSE");	 //NOT PORTABLE
   return 0; 
 }

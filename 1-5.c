@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 //Function main begins.
-int main(int argc, char *argv[])
+int main()
 {
   
   //variable declaration
